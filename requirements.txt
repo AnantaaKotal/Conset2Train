@@ -1,0 +1,11 @@
+# Optional full installation. The policy engine and BM25 need only Python 3.10+.
+numpy>=1.26,<3
+torch>=2.4,<3
+transformers>=4.51,<5
+peft>=0.15,<1
+accelerate>=1.2,<2
+datasets>=3,<5
+sentence-transformers>=3.4,<6
+qdrant-client>=1.14,<2
+chromadb>=1.0,<2
+faiss-cpu>=1.10,<2
